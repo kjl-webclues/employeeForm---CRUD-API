@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 5px;
+  padding: 3px;
+  background-color: whitesmoke;
+}
+h1{
+  margin-left: 5%;
+  color:cornflowerblue;
+}
+input[type]{
+  width: 20%;
+  padding: 12px;
+  /* display: inline-block; */
+  border: none;
+  border-radius: 3%;
+  background: white;
+}
+.signin{
+  background-color:cornflowerblue;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.cancel{
+  background-color: rgb(233, 168, 168);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.signin:hover{
+  opacity: 5;
+}
+.cancel:hover{
+  opacity: 10;
+}
+
+.eachItem{
+box-sizing: border-box;
+box-sizing: content-box;
+  
+}
+.editbtn{
+  background-color: rgb(73, 161, 195);
+  color: white;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.delbtn{
+  background-color: rgb(231, 82, 82);
+  color: white;
+  padding: 13px 15px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  opacity: 0.9;
+}
+input.search{
+  margin-left: 40%;
+  font-size:medium;
+  border-radius: 10px;
+}
+
+.home{
+   /* background-color: rgb(95, 159, 175); */
+   background-color: cornflowerblue;
+  color: white;
+  padding: 13px 15px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  opacity: 0.9;
+  margin-left: 5%;
+}
